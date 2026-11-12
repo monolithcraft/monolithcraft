@@ -1,40 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="LATEST UPDATES">
-<rect x="1" y="1" width="1198" height="558" rx="8" fill="#0a0c0f" stroke="#30343a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="648" viewBox="0 0 1200 648" role="img" aria-label="LATEST UPDATES">
+<rect x="1" y="1" width="1198" height="646" rx="8" fill="#0a0c0f" stroke="#30343a"/>
 <text x="38" y="46" font-family="Georgia,serif" font-size="19" fill="#e9e7e1" letter-spacing="3">LATEST UPDATES</text>
 <text x="1162" y="44" font-family="monospace" font-size="11" fill="#818891" text-anchor="end" letter-spacing="2">RECENT COMMITS</text>
 <path d="M38 69H1162" fill="none" stroke="#2e3238" stroke-width="1.5" />
-<a href="https://github.com/monolithcraft/monolithcraft/commit/4f95b37a78bb1d834a723b30e9a7260871dd285d" target="_blank">
+<a href="https://github.com/monolithcraft/monolithcraft/commit/d12007fe828d6195bb5bf1d0b6f5b50462a46653" target="_blank">
 <text x="40" y="109" font-family="monospace" font-size="11" fill="#8b95a1" >2026-11-12</text>
 <text x="200" y="109" font-family="monospace" font-size="11" fill="#8b95a1" >monolithcraft</text>
-<text x="1160" y="109" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">4f95b37</text>
-<text x="40" y="141" font-family="monospace" font-size="18" fill="#d7dce1" >Add monochrome development diagram and profile navigation</text>
+<text x="1160" y="109" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">d12007f</text>
+<text x="40" y="141" font-family="monospace" font-size="18" fill="#d7dce1" >Replace process diagram with live profile dashboard</text>
 </a>
 <path d="M40 164H1160" fill="none" stroke="#242a32" stroke-width="1.5" />
-<a href="https://github.com/monolithcraft/monolithcraft/commit/491c080b22c4e523e478281919d26574c7436afe" target="_blank">
+<a href="https://github.com/monolithcraft/monolithcraft/commit/4f95b37a78bb1d834a723b30e9a7260871dd285d" target="_blank">
 <text x="40" y="197" font-family="monospace" font-size="11" fill="#8b95a1" >2026-11-12</text>
 <text x="200" y="197" font-family="monospace" font-size="11" fill="#8b95a1" >monolithcraft</text>
-<text x="1160" y="197" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">491c080</text>
-<text x="40" y="229" font-family="monospace" font-size="18" fill="#d7dce1" >Refine profile artwork and studio introduction</text>
+<text x="1160" y="197" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">4f95b37</text>
+<text x="40" y="229" font-family="monospace" font-size="18" fill="#d7dce1" >Add monochrome development diagram and profile navigation</text>
 </a>
 <path d="M40 252H1160" fill="none" stroke="#242a32" stroke-width="1.5" />
-<a href="https://github.com/monolithcraft/monolithcraft/commit/04fb7b506db6379974440a405bee242254bb1c56" target="_blank">
+<a href="https://github.com/monolithcraft/monolithcraft/commit/491c080b22c4e523e478281919d26574c7436afe" target="_blank">
 <text x="40" y="285" font-family="monospace" font-size="11" fill="#8b95a1" >2026-11-12</text>
 <text x="200" y="285" font-family="monospace" font-size="11" fill="#8b95a1" >monolithcraft</text>
-<text x="1160" y="285" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">04fb7b5</text>
-<text x="40" y="317" font-family="monospace" font-size="18" fill="#d7dce1" >Add files via upload</text>
+<text x="1160" y="285" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">491c080</text>
+<text x="40" y="317" font-family="monospace" font-size="18" fill="#d7dce1" >Refine profile artwork and studio introduction</text>
 </a>
 <path d="M40 340H1160" fill="none" stroke="#242a32" stroke-width="1.5" />
-<a href="https://github.com/monolithcraft/monolithcraft/commit/dc203283a753e1cdfc4cca0139e2ce46472a74d7" target="_blank">
+<a href="https://github.com/monolithcraft/monolithcraft/commit/04fb7b506db6379974440a405bee242254bb1c56" target="_blank">
 <text x="40" y="373" font-family="monospace" font-size="11" fill="#8b95a1" >2026-11-12</text>
 <text x="200" y="373" font-family="monospace" font-size="11" fill="#8b95a1" >monolithcraft</text>
-<text x="1160" y="373" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">dc20328</text>
-<text x="40" y="405" font-family="monospace" font-size="18" fill="#d7dce1" >Update README.md</text>
+<text x="1160" y="373" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">04fb7b5</text>
+<text x="40" y="405" font-family="monospace" font-size="18" fill="#d7dce1" >Add files via upload</text>
 </a>
 <path d="M40 428H1160" fill="none" stroke="#242a32" stroke-width="1.5" />
-<a href="https://github.com/monolithcraft/monolithcraft/commit/2da39574d1798c718b9cb3de9b353ed8a40f63f7" target="_blank">
+<a href="https://github.com/monolithcraft/monolithcraft/commit/dc203283a753e1cdfc4cca0139e2ce46472a74d7" target="_blank">
 <text x="40" y="461" font-family="monospace" font-size="11" fill="#8b95a1" >2026-11-12</text>
 <text x="200" y="461" font-family="monospace" font-size="11" fill="#8b95a1" >monolithcraft</text>
-<text x="1160" y="461" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">2da3957</text>
-<text x="40" y="493" font-family="monospace" font-size="18" fill="#d7dce1" >Initial commit</text>
+<text x="1160" y="461" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">dc20328</text>
+<text x="40" y="493" font-family="monospace" font-size="18" fill="#d7dce1" >Update README.md</text>
+</a>
+<path d="M40 516H1160" fill="none" stroke="#242a32" stroke-width="1.5" />
+<a href="https://github.com/monolithcraft/monolithcraft/commit/2da39574d1798c718b9cb3de9b353ed8a40f63f7" target="_blank">
+<text x="40" y="549" font-family="monospace" font-size="11" fill="#8b95a1" >2026-11-12</text>
+<text x="200" y="549" font-family="monospace" font-size="11" fill="#8b95a1" >monolithcraft</text>
+<text x="1160" y="549" font-family="monospace" font-size="11" fill="#8b95a1" text-anchor="end">2da3957</text>
+<text x="40" y="581" font-family="monospace" font-size="18" fill="#d7dce1" >Initial commit</text>
 </a>
 </svg>
