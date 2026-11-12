@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-label="ACTIVITY">
+<rect x="1" y="1" width="1198" height="363" rx="8" fill="#0a0c0f" stroke="#30343a"/>
+<text x="38" y="46" font-family="Georgia,serif" font-size="19" fill="#e9e7e1" letter-spacing="3">ACTIVITY</text>
+<text x="1162" y="44" font-family="monospace" font-size="11" fill="#818891" text-anchor="end" letter-spacing="2">LAST 30 DAYS</text>
+<path d="M38 69H1162" fill="none" stroke="#2e3238" stroke-width="1.5" />
+<path d="M65 112H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
+<text x="36" y="116" font-family="monospace" font-size="10" fill="#68717d" >7</text>
+<path d="M65 167H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
+<text x="36" y="171" font-family="monospace" font-size="10" fill="#68717d" >5</text>
+<path d="M65 222H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
+<text x="36" y="226" font-family="monospace" font-size="10" fill="#68717d" >2</text>
+<path d="M65 277H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
+<text x="36" y="281" font-family="monospace" font-size="10" fill="#68717d" >0</text>
+<rect x="73" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<text x="83" y="303" font-family="monospace" font-size="10" fill="#858f9b" text-anchor="middle">10-14</text>
+<rect x="109" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="145" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="181" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="217" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="253" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="289" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="325" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<text x="335" y="303" font-family="monospace" font-size="10" fill="#858f9b" text-anchor="middle">10-21</text>
+<rect x="361" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="397" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="433" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="469" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="505" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="541" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="577" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<text x="587" y="303" font-family="monospace" font-size="10" fill="#858f9b" text-anchor="middle">10-28</text>
+<rect x="613" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="649" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="685" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="721" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="757" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="793" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="829" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<text x="839" y="303" font-family="monospace" font-size="10" fill="#858f9b" text-anchor="middle">11-04</text>
+<rect x="865" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="901" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="937" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="973" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="1009" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="1045" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="1081" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
+<rect x="1117" y="112.0" width="22" height="165.0" rx="2" fill="#d2d6d9" stroke="none"/>
+<text x="1127" y="303" font-family="monospace" font-size="10" fill="#858f9b" text-anchor="middle">11-12</text>
+<text x="40" y="342" font-family="monospace" font-size="11" fill="#b2b9c2" letter-spacing="2">7 CONTRIBUTIONS</text>
+<text x="1160" y="342" font-family="monospace" font-size="11" fill="#858f9b" text-anchor="end" letter-spacing="2">1 ACTIVE DAYS</text>
+</svg>
