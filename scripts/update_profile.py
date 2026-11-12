@@ -12,11 +12,12 @@ def api(endpoint, *args):
     return json.loads(subprocess.check_output(['gh', 'api', endpoint, *args], text=True))
 user = api(f'users/{USER}')
 repos = api(f'users/{USER}/repos?per_page=100&sort=pushed')
+projects = [repo for repo in repos if repo['name'].lower() != USER.lower()]
 query = 'query { user(login:"'+USER+'") { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }'
 calendar = api('graphql', '-f', 'query='+query)['data']['user']['contributionsCollection']['contributionCalendar']
 days = [d for week in calendar['weeks'] for d in week['contributionDays']]
 updates=[]
-for repo in repos[:8]:
+for repo in projects[:8]:
     try:
         for c in api(f"repos/{repo['full_name']}/commits?per_page=6"):
             if c['commit']['message'].startswith('chore: refresh profile'): continue
@@ -85,7 +86,9 @@ p.text(40,342,f'{sum(d["contributionCount"] for d in recent)} CONTRIBUTIONS',11,
 p.text(1160,342,f'{sum(d["contributionCount"]>0 for d in recent)} ACTIVE DAYS',11,'#858f9b',extra='text-anchor="end" letter-spacing="2"')
 p.save('activity.svg')
 
-p=Panel(120+len(updates[:6])*88,'LATEST UPDATES','RECENT COMMITS')
+p=Panel(max(170,120+len(updates[:6])*88),'LATEST UPDATES','PROJECT ACTIVITY')
+if not updates:
+    p.text(40,119,'No public project updates yet',16,'#929da9')
 for i,u in enumerate(updates[:6]):
     y=109+i*88
     p.p.append(f'<a href="{escape(u["url"])}" target="_blank">')
@@ -98,8 +101,10 @@ for i,u in enumerate(updates[:6]):
     if i<len(updates[:6])-1:p.path(f'M40 {y+55}H1160','#242a32')
 p.save('updates.svg')
 
-shown=repos[:5]
-p=Panel(110+len(shown)*130,'REPOSITORIES','PUBLIC INDEX')
+shown=projects[:5]
+p=Panel(max(170,110+len(shown)*130),'REPOSITORIES','PUBLIC PROJECTS')
+if not shown:
+    p.text(40,119,'No public projects yet',16,'#929da9')
 for i,r in enumerate(shown):
     y=98+i*130
     p.p.append(f'<a href="{escape(r["html_url"])}" target="_blank">')
@@ -113,7 +118,7 @@ p.save('repositories.svg')
 
 p=Panel(125,'MONOLITH','SOFTWARE STUDIO')
 p.text(40,104,'github.com/monolithcraft',12,'#b2bac4')
-p.text(1160,104,'UPDATED '+now,11,'#858e99',extra='text-anchor="end" letter-spacing="1"')
+
 p.save('footer.svg')
 
 readme='''<p align="center">
@@ -125,7 +130,7 @@ readme='''<p align="center">
   &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="https://github.com/monolithcraft?tab=projects">Projects</a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="https://github.com/monolithcraft/monolithcraft/commits/main">Updates</a>
+  <a href="https://github.com/monolithcraft?tab=overview">Activity</a>
 </p>
 
 <p align="center">
@@ -142,7 +147,7 @@ readme='''<p align="center">
 
 <a href="https://github.com/monolithcraft?tab=repositories"><img src="assets/repositories.svg" width="100%" alt="Public repositories"></a>
 
-<img src="assets/footer.svg" width="100%" alt="Monolith studio and last update date">
+<img src="assets/footer.svg" width="100%" alt="Monolith studio">
 '''
 (ROOT/'README.md').write_text(readme)
 # Ensure generated assets are valid XML before any commit

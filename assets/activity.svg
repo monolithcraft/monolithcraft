@@ -4,11 +4,11 @@
 <text x="1162" y="44" font-family="monospace" font-size="11" fill="#818891" text-anchor="end" letter-spacing="2">LAST 30 DAYS</text>
 <path d="M38 69H1162" fill="none" stroke="#2e3238" stroke-width="1.5" />
 <path d="M65 112H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
-<text x="36" y="116" font-family="monospace" font-size="10" fill="#68717d" >7</text>
+<text x="36" y="116" font-family="monospace" font-size="10" fill="#68717d" >8</text>
 <path d="M65 167H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
 <text x="36" y="171" font-family="monospace" font-size="10" fill="#68717d" >5</text>
 <path d="M65 222H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
-<text x="36" y="226" font-family="monospace" font-size="10" fill="#68717d" >2</text>
+<text x="36" y="226" font-family="monospace" font-size="10" fill="#68717d" >3</text>
 <path d="M65 277H1150" fill="none" stroke="#22272e" stroke-width="1.5" />
 <text x="36" y="281" font-family="monospace" font-size="10" fill="#68717d" >0</text>
 <rect x="73" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
@@ -46,6 +46,6 @@
 <rect x="1081" y="277.0" width="22" height="2" rx="2" fill="#232a33" stroke="none"/>
 <rect x="1117" y="112.0" width="22" height="165.0" rx="2" fill="#d2d6d9" stroke="none"/>
 <text x="1127" y="303" font-family="monospace" font-size="10" fill="#858f9b" text-anchor="middle">11-12</text>
-<text x="40" y="342" font-family="monospace" font-size="11" fill="#b2b9c2" letter-spacing="2">7 CONTRIBUTIONS</text>
+<text x="40" y="342" font-family="monospace" font-size="11" fill="#b2b9c2" letter-spacing="2">8 CONTRIBUTIONS</text>
 <text x="1160" y="342" font-family="monospace" font-size="11" fill="#858f9b" text-anchor="end" letter-spacing="2">1 ACTIVE DAYS</text>
 </svg>

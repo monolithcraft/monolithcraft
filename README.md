@@ -7,7 +7,7 @@
   &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="https://github.com/monolithcraft?tab=projects">Projects</a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="https://github.com/monolithcraft/monolithcraft/commits/main">Updates</a>
+  <a href="https://github.com/monolithcraft?tab=overview">Activity</a>
 </p>
 
 <p align="center">
@@ -24,4 +24,4 @@
 
 <a href="https://github.com/monolithcraft?tab=repositories"><img src="assets/repositories.svg" width="100%" alt="Public repositories"></a>
 
-<img src="assets/footer.svg" width="100%" alt="Monolith studio and last update date">
+<img src="assets/footer.svg" width="100%" alt="Monolith studio">
