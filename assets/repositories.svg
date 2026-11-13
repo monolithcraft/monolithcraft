@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="REPOSITORIES">
-<rect x="1" y="1" width="1198" height="168" rx="8" fill="#0a0c0f" stroke="#30343a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="REPOSITORIES">
+<rect x="1" y="1" width="1198" height="238" rx="8" fill="#0a0c0f" stroke="#30343a"/>
 <text x="38" y="46" font-family="Georgia,serif" font-size="19" fill="#e9e7e1" letter-spacing="3">REPOSITORIES</text>
 <text x="1162" y="44" font-family="monospace" font-size="11" fill="#818891" text-anchor="end" letter-spacing="2">PUBLIC PROJECTS</text>
 <path d="M38 69H1162" fill="none" stroke="#2e3238" stroke-width="1.5" />
-<text x="40" y="119" font-family="monospace" font-size="16" fill="#929da9" >No public projects yet</text>
+<a href="https://github.com/monolithcraft/moligram" target="_blank">
+<text x="40" y="122" font-family="Georgia,serif" font-size="25" fill="#e2e5e8" >moligram</text>
+<text x="40" y="156" font-family="monospace" font-size="13" fill="#929da9" >Desktop Telegram client focused on privacy, speed and design</text>
+<text x="40" y="187" font-family="monospace" font-size="10" fill="#a6afba" letter-spacing="2">QML</text>
+<text x="1160" y="122" font-family="monospace" font-size="11" fill="#929da9" text-anchor="end">0 STARS    0 FORKS</text>
+</a>
 </svg>

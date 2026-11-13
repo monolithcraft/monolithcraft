@@ -3,10 +3,10 @@
 <text x="38" y="46" font-family="Georgia,serif" font-size="19" fill="#e9e7e1" letter-spacing="3">OVERVIEW</text>
 <text x="1162" y="44" font-family="monospace" font-size="11" fill="#818891" text-anchor="end" letter-spacing="2">PUBLIC GITHUB DATA</text>
 <path d="M38 69H1162" fill="none" stroke="#2e3238" stroke-width="1.5" />
-<text x="40" y="161" font-family="Georgia,serif" font-size="57" fill="#eeede7" >1</text>
+<text x="40" y="161" font-family="Georgia,serif" font-size="57" fill="#eeede7" >2</text>
 <text x="40" y="194" font-family="monospace" font-size="11" fill="#949ba4" letter-spacing="2">REPOSITORIES</text>
 <path d="M31099V194" fill="none" stroke="#282d34" stroke-width="1.5" />
-<text x="330" y="161" font-family="Georgia,serif" font-size="57" fill="#eeede7" >8</text>
+<text x="330" y="161" font-family="Georgia,serif" font-size="57" fill="#eeede7" >21</text>
 <text x="330" y="194" font-family="monospace" font-size="11" fill="#949ba4" letter-spacing="2">CONTRIBUTIONS</text>
 <path d="M60099V194" fill="none" stroke="#282d34" stroke-width="1.5" />
 <text x="620" y="161" font-family="Georgia,serif" font-size="57" fill="#eeede7" >0</text>
